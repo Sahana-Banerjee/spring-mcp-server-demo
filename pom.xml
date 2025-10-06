@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.study.spring.ai</groupId>
 	<artifactId>mcp-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>mcp-demo</name>
 	<description>Demo project for exploring mcp server in spring ai</description>
 	<url/>

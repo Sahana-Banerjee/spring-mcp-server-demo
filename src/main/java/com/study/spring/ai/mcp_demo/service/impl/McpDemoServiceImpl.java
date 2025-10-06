@@ -4,11 +4,13 @@ import com.study.spring.ai.mcp_demo.service.McpDemoService;
 import com.study.spring.ai.mcp_demo.service.PersonDetails;
 import jakarta.annotation.PostConstruct;
 import org.springframework.ai.tool.annotation.Tool;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class McpDemoServiceImpl implements McpDemoService {
 
     List<PersonDetails> personDetailsList = new ArrayList<>();
